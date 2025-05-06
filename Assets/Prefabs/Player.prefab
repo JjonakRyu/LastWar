@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8330145862082802894}
-  - component: {fileID: 3141106241481854781}
+  - component: {fileID: -9008033483625548427}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3141106241481854781
+--- !u!114 &-9008033483625548427
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,10 +42,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3303283187918565152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d89ed22ef19cf6244aec9b00d9f9d234, type: 3}
+  m_Script: {fileID: 11500000, guid: 53b03b9414b0c7545b63e711e4a44cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  projectilePrefab: {fileID: 3288091000353871031, guid: 419c4979bdd91cb4d97f10c2467026f8, type: 3}
+  fireRate: 1
+  projectileSpeed: 10
+  maxDistance: 20
 --- !u!1 &4839189094711979392
 GameObject:
   m_ObjectHideFlags: 0

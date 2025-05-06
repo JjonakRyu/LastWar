@@ -28,9 +28,16 @@ public class PlayerAgent : MonoBehaviour
         m_rb.velocity = targetDir * (m_moveSpeed * m_radiusFactor);
     }
 
-    public void BegunShooting()
-    {
-        
-    }
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.CompareTag("AddPlayer"))
+    //    {
+    //        AddPlayerBonus addPlayerBonus = other.GetComponent<addplayersBonus>();
+    //        if (addPlayerBonus.m_fullyUp)
+    //        {
+    //            m_parentController.AddPlayerBonus(addPlayerBonus.m_playerincrease);
+    //        }
+    //    }
+    //    Destroy(other.gameObject);
+    //}
 }
-
